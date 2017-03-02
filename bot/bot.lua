@@ -84,8 +84,8 @@ function create_config( )
     "plugins",
     "tools"
  },
-    sudo_users = {119842745},
-    admins = {119842745},
+    sudo_users = {257020886},
+    admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
     info_text = [[》Beyond Reborn v1
@@ -517,7 +517,7 @@ function msg_valid(msg)
     print('\27[36mOld msg\27[39m')
     return true
   end
-  return false 
+  return true 
 end
 
 function match_pattern(pattern, text, lower_case)
