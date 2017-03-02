@@ -2611,7 +2611,7 @@ end
 if matches[1] == "help" and is_mod(msg) then
 if not lang then
 text = [[
-*Reborn Bot Commands:*
+*Reborn Bot raian daveh:*
 
 *!setowner* `[username|id|reply]` 
 _Set Group Owner(Multi Owner)_
@@ -2717,6 +2717,7 @@ _This Help List Only For_ *Moderators/Owners!*
 _Its Means, Only Group_ *Moderators/Owners* _Can Use It!_
 
 *Good luck ;)*]]
+			Programming by the programming team raian daveh
 
 elseif lang then
 
