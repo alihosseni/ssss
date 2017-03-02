@@ -517,7 +517,7 @@ function msg_valid(msg)
     print('\27[36mOld msg\27[39m')
     return true
   end
-  return False 
+  return true 
 end
 
 function match_pattern(pattern, text, lower_case)
