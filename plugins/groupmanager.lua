@@ -2611,7 +2611,7 @@ end
 if matches[1] == "help" and is_mod(msg) then
 if not lang then
 text = [[
-*Reborn Bot raian daveh:*
+*Reborn Bot Commands:*
 
 *!setowner* `[username|id|reply]` 
 _Set Group Owner(Multi Owner)_
@@ -2717,12 +2717,11 @@ _This Help List Only For_ *Moderators/Owners!*
 _Its Means, Only Group_ *Moderators/Owners* _Can Use It!_
 
 *Good luck ;)*]]
-			Programming by the programming team raian daveh
 
 elseif lang then
 
 text = [[
-*دستورات ربات 💀مځأڣڟ ڱڔؤة💀:*
+*دستورات ربات بیوند:*
 
 *!setowner* `[username|id|reply]` 
 _انتخاب مالک گروه(قابل انتخاب چند مالک)_
@@ -2829,8 +2828,7 @@ _شما میتوانید از [!/#] در اول دستورات برای اجرا
 
 این به این معناست که فقط مدیران/مالکان گروه میتوانند از دستورات بالا استفاده کنند!_
 
-*موفق باشید برنامه نویسی شده توسط تیم برنامه نویسی رایان داوه ;)*]]
-			telegramiti.ir
+*موفق باشید ;)*]]
 end
 return text
 end
